@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+}
+body{
+  background:linear-gradient(to right,#f01cb0,#0bc6df);
+}
+.quiz-app , .footer{
+  background-color: greenyellow;
+  padding: 10px 15px;
+  /* width: 900px;
+  max-width: 900px; */
+  margin: 10px auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 2px 5px 10px gray;
+}
+.quiz-info{
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.quiz-info .category{
+  flex: 1;
+  select{
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: 600;
+    option{
+      background-color: #eee;
+      background-color: greenyellow;
+      color: black;
+      font-size: 16px;
+    }
+}
+}
+.quiz-info .count{
+  flex: 1;
+  text-align: right;
+}
+.quiz-app .quiz-area{
+  padding: 10px;
+  background-color: #35e01e41;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.quiz-area h3{
+  margin: 0;
+  font-weight: normal;
+}
+.quiz-app .answer-area{
+  margin: 10px auto;
+  padding: 0px 10px;
+  background-color: #eee;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.quiz-app .answer-area .answer{
+  padding: 10px;
+  font-size: 18px;
+  position: relative;
+  top: -2px;
+}
+.quiz-app .answer-area .answer label{
+  margin-left: 15px;
+}
+.quiz-app .answer-area .answer:not(:last-child){
+  border-bottom: 1px solid rgb(190, 165, 165);
+}
+.quiz-app .answer-area .answer input:checked + label{
+  color: rgb(12, 143, 219);
+}
+.quiz-app .submit-button{
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #eee;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  font-size: 19px;
+}
+.quiz-app .submit-button:hover{
+  background-color: #35e01e41;
+  box-shadow: 0px 4px 2px gray;
+}
+.quiz-app .bullets{
+  padding: 5px;
+  color: black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-top: 10px;
+}
+.quiz-app .bullets .spans{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  span{
+    background-color: #eee;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    line-height: 15px;
+    font-weight: 700;
+    text-align: center
+}& .active{
+  background-color: yellow;
+  color: blue;
+}
+}
+.results{
+  display: none;
+  background-color: #eee;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  width: fit-content;
+  margin: 10px auto;
+  span{
+    color: blue;
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+}
+.countdown{
+  font-weight: bold;
+  color: black;
+}
+.footer{
+  text-align: center;
+  font-weight: 700;
+  span{
+    color: blue;
+  }
+  a{
+    display: block;
+    text-decoration: none;
+    color: purple;
+  }
+}
+@media (min-width:900px) {
+  .quiz-app , .footer{
+    width: 900px;
+  }
+}

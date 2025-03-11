@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What does CSS stand for?",
+    "answer_1": "Cascading Style Sheets",
+    "answer_2": "Computer Style Sheets",
+    "answer_3": "Creative Style Sheets",
+    "answer_4": "Colorful Style Sheets",
+    "correct_answer": "Cascading Style Sheets"
+  },
+  {
+    "question": "Which CSS property controls the text size?",
+    "answer_1": "font-size",
+    "answer_2": "text-size",
+    "answer_3": "font-style",
+    "answer_4": "text-font",
+    "correct_answer": "font-size"
+  },
+  {
+    "question": "How do you change the background color in CSS?",
+    "answer_1": "background-color: red;",
+    "answer_2": "color-background: red;",
+    "answer_3": "background: red;",
+    "answer_4": "color: red;",
+    "correct_answer": "background-color: red;"
+  },
+  {
+    "question": "Which property is used to change the font of an element?",
+    "answer_1": "font-family",
+    "answer_2": "font-size",
+    "answer_3": "text-font",
+    "answer_4": "font-style",
+    "correct_answer": "font-family"
+  },
+  {
+    "question": "How can you center a block element horizontally in CSS?",
+    "answer_1": "margin: 0 auto;",
+    "answer_2": "text-align: center;",
+    "answer_3": "align: center;",
+    "answer_4": "center-align: true;",
+    "correct_answer": "margin: 0 auto;"
+  },
+  {
+    "question": "What is the default value of the 'position' property in CSS?",
+    "answer_1": "static",
+    "answer_2": "relative",
+    "answer_3": "absolute",
+    "answer_4": "fixed",
+    "correct_answer": "static"
+  },
+  {
+    "question": "Which CSS property controls the spacing between lines of text?",
+    "answer_1": "line-height",
+    "answer_2": "text-spacing",
+    "answer_3": "letter-spacing",
+    "answer_4": "word-spacing",
+    "correct_answer": "line-height"
+  },
+  {
+    "question": "How can you add a border to an element in CSS?",
+    "answer_1": "border: 1px solid black;",
+    "answer_2": "border-width: 1px;",
+    "answer_3": "border-color: black;",
+    "answer_4": "border-style: solid;",
+    "correct_answer": "border: 1px solid black;"
+  },
+  {
+    "question": "How do you apply a class to an HTML element in CSS?",
+    "answer_1": ".class-name { }",
+    "answer_2": "#class-name { }",
+    "answer_3": "class-name { }",
+    "answer_4": "class: class-name { }",
+    "correct_answer": ".class-name { }"
+  },
+  {
+    "question": "Which property is used to create space between the border and the content in CSS?",
+    "answer_1": "padding",
+    "answer_2": "margin",
+    "answer_3": "border-spacing",
+    "answer_4": "content-spacing",
+    "correct_answer": "padding"
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "answer_1": "Hyper Text Markup Language",
+    "answer_2": "Hyperlinks and Text Markup Language",
+    "answer_3": "Home Tool Markup Language",
+    "answer_4": "None of the above",
+    "correct_answer": "Hyper Text Markup Language"
+  },
+  {
+    "question": "What is the correct HTML element for inserting a line break?",
+    "answer_1": "<br>",
+    "answer_2": "<break>",
+    "answer_3": "<lb>",
+    "answer_4": "<line>",
+    "correct_answer": "<br>"
+  },
+  {
+    "question": "How do you create a hyperlink in HTML?",
+    "answer_1": "<a href='http://www.example.com'>Link</a>",
+    "answer_2": "<link href='http://www.example.com'>Link</link>",
+    "answer_3": "<a url='http://www.example.com'>Link</a>",
+    "answer_4": "<href='http://www.example.com'>Link</href>",
+    "correct_answer": "<a href='http://www.example.com'>Link</a>"
+  },
+  {
+    "question": "Which of the following is not a valid HTML element?",
+    "answer_1": "<section>",
+    "answer_2": "<header>",
+    "answer_3": "<footer>",
+    "answer_4": "<page>",
+    "correct_answer": "<page>"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list?",
+    "answer_1": "<ol>",
+    "answer_2": "<ul>",
+    "answer_3": "<li>",
+    "answer_4": "<dl>",
+    "correct_answer": "<ul>"
+  },
+  {
+    "question": "What does the 'alt' attribute in an <img> tag specify?",
+    "answer_1": "The alternative text for the image",
+    "answer_2": "The alternate style for the image",
+    "answer_3": "The alignment of the image",
+    "answer_4": "The source of the image",
+    "correct_answer": "The alternative text for the image"
+  },
+  {
+    "question": "Which of the following HTML elements is used to define a table?",
+    "answer_1": "<tr>",
+    "answer_2": "<table>",
+    "answer_3": "<td>",
+    "answer_4": "<th>",
+    "correct_answer": "<table>"
+  },
+  {
+    "question": "Which of the following is the correct HTML tag to define an input field?",
+    "answer_1": "<input>",
+    "answer_2": "<text>",
+    "answer_3": "<form>",
+    "answer_4": "<button>",
+    "correct_answer": "<input>"
+  },
+  {
+    "question": "What is the correct HTML element for the largest heading?",
+    "answer_1": "<h1>",
+    "answer_2": "<h6>",
+    "answer_3": "<heading>",
+    "answer_4": "<h>",
+    "correct_answer": "<h1>"
+  },
+  {
+    "question": "Which attribute is used to specify the URL of a linked document?",
+    "answer_1": "src",
+    "answer_2": "href",
+    "answer_3": "link",
+    "answer_4": "url",
+    "correct_answer": "href"
+  },
+  {
+    "question": "Which HTML tag is used to define a paragraph?",
+    "answer_1": "<p>",
+    "answer_2": "<para>",
+    "answer_3": "<text>",
+    "answer_4": "<pr>",
+    "correct_answer": "<p>"
+  },
+  {
+    "question": "Which element is used to define a division or section in an HTML document?",
+    "answer_1": "<div>",
+    "answer_2": "<section>",
+    "answer_3": "<header>",
+    "answer_4": "<article>",
+    "correct_answer": "<div>"
+  },
+  {
+    "question": "Which HTML tag is used to define a clickable button?",
+    "answer_1": "<button>",
+    "answer_2": "<input type='button'>",
+    "answer_3": "<click>",
+    "answer_4": "<a>",
+    "correct_answer": "<button>"
+  },
+  {
+    "question": "What does the <meta> tag define?",
+    "answer_1": "Metadata about the HTML document",
+    "answer_2": "The structure of the document",
+    "answer_3": "The title of the document",
+    "answer_4": "The CSS file for the document",
+    "correct_answer": "Metadata about the HTML document"
+  },
+  {
+    "question": "How do you create a comment in HTML?",
+    "answer_1": "<!-- This is a comment -->",
+    "answer_2": "// This is a comment",
+    "answer_3": "/* This is a comment */",
+    "answer_4": "<comment>This is a comment</comment>",
+    "correct_answer": "<!-- This is a comment -->"
+  },
+  {
+    "question": "Which of the following is used to add a comment in HTML?",
+    "answer_1": "<!-- comment -->",
+    "answer_2": "// comment",
+    "answer_3": "<# comment #>",
+    "answer_4": "<comment> comment </comment>",
+    "correct_answer": "<!-- comment -->"
+  },
+  {
+    "question": "What does the <title> tag define?",
+    "answer_1": "The title of the HTML document",
+    "answer_2": "The type of the document",
+    "answer_3": "The description of the document",
+    "answer_4": "The metadata of the document",
+    "correct_answer": "The title of the HTML document"
+  },
+  {
+    "question": "How do you create a table in HTML?",
+    "answer_1": "<table>",
+    "answer_2": "<tr>",
+    "answer_3": "<td>",
+    "answer_4": "<th>",
+    "correct_answer": "<table>"
+  },
+  {
+    "question": "What does the <iframe> tag do?",
+    "answer_1": "Defines an inline frame",
+    "answer_2": "Creates an image frame",
+    "answer_3": "Defines a form frame",
+    "answer_4": "Creates an input frame",
+    "correct_answer": "Defines an inline frame"
+  },
+  {
+    "question": "How do you define a list in HTML?",
+    "answer_1": "<ol>",
+    "answer_2": "<ul>",
+    "answer_3": "<dl>",
+    "answer_4": "<list>",
+    "correct_answer": "<ul>"
+  },
+  {
+    "question": "Which tag is used to define a table header in HTML?",
+    "answer_1": "<thead>",
+    "answer_2": "<th>",
+    "answer_3": "<header>",
+    "answer_4": "<head>",
+    "correct_answer": "<th>"
+  },
+  {
+    "question": "What does the <footer> tag define?",
+    "answer_1": "The footer of a document or section",
+    "answer_2": "The header of a document or section",
+    "answer_3": "The body of a document",
+    "answer_4": "The main content of a page",
+    "correct_answer": "The footer of a document or section"
+  },
+  {
+    "question": "Which tag is used to define a list item in HTML?",
+    "answer_1": "<li>",
+    "answer_2": "<item>",
+    "answer_3": "<list>",
+    "answer_4": "<ul>",
+    "correct_answer": "<li>"
+  },
+  {
+    "question": "How do you insert an image in HTML?",
+    "answer_1": "<img src='image.jpg'>",
+    "answer_2": "<image src='image.jpg'>",
+    "answer_3": "<picture src='image.jpg'>",
+    "answer_4": "<img href='image.jpg'>",
+    "correct_answer": "<img src='image.jpg'>"
+  }
+]
