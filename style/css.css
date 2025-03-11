@@ -44,6 +44,7 @@ body{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     font-weight: 600;
+    margin: 10px auto;
     option{
       background-color: #eee;
       background-color: greenyellow;
@@ -181,6 +182,7 @@ body{
 .countdown{
   font-weight: bold;
   color: black;
+  margin-top:10px;
 }
 .footer{
   text-align: center;
