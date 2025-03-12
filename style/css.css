@@ -91,7 +91,8 @@ body{
 }
 .quiz-app .answer-area .answer label{
   margin-left: 15px;
-  word-break: keep-all;
+  text-wrap: wrap;
+  line-break: anywhere;
 }
 .quiz-app .answer-area .answer:not(:last-child){
   border-bottom: 1px solid rgb(190, 165, 165);
